@@ -1,2 +1,5 @@
 # AVASTR
-Informacnte de craking y hacking
+Informante de craking y hacking
+
+Discord : https://discord.gg/r5KjtfhhPN
+Web : avastr.foroactivo.com
