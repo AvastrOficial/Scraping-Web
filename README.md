@@ -1,5 +1,5 @@
 # AVASTR
-Informante de craking y hacking
+hacker de redes sociales :  STR
 
 Discord : https://discord.gg/r5KjtfhhPN
 
