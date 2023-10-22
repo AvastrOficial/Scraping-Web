@@ -1,0 +1,86 @@
+<html>
+  <head>
+
+ <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>scrap BSZ</title>
+  </head>
+  <body>
+
+    <div class="overlay">
+         <div class="popup">
+            <div class="loading" ><div class="animacion">
+  <span class="letra">S</span>
+  <span class="letra">C</span>
+  <span class="letra">R</span>
+  <span class="letra">A</span>
+  <span class="letra">P</span>
+<span class="letra">-</span>
+<span class="letra">B</span>
+<span class="letra">S</span>
+<span class="letra">Z</span><div class="loading-bar">
+  <div class="progress"></div>
+    </div>
+              </div>
+            </div>
+         </div>
+     <div class="menu">
+   <h1>SCRAP - BSZ</h1>
+   <div class="menu-toggle">
+      <h3>⯈ OPCIONES</h3>
+   </div>
+   <div class="menu-options">
+      <ul>
+       
+        <li><button class="menu-button" onclick="closeMenuAndPlayMusic()">IR A LA PAGINA</button></li>
+<audio id="music" src="https://files.catbox.moe/q8qpww.mp3" preload="auto"></audio>
+
+<li><button class="menu-button" onclick="openPopup()">INFORMACIÓN</button></li>
+</ul>
+</div>
+</div>
+</div>
+    
+    <div class="popup-overlay2" id="popupOverlay2">
+  <div class="popup2">
+    <div class="popup-header2">
+      <h3>Informacion de la pagina</h3>
+      <button class="close-button2" onclick="closePopup()">✖</button>
+    </div>
+    <div class="popup-content2">
+      
+      <p>Esta página es una recreación del esfuerzo de la comunidad y de las personas que nos siguen apoyando con buenas sonrisas y agradecimientos.
+Atentamente: BSZ
+Autor: AVA</p>
+    </div>
+  </div>
+</div>
+    
+  <div id="progress-bar-container">
+    <div id="progress-bar"></div>
+  </div>
+    <h1>SCRAP - BSZ</h1>
+    <form>
+      <label for="url">URL:</label>
+      <input type="text" id="url" name="url" value="https://www.projz.com/" />
+      <button id="boton-raspar" type="button">Raspar</button>
+    </form>
+    <div class="volume-button">
+  <button id="volume-up" onclick="changeVolume('up')">Subir Volumen</button>
+  <button id="volume-down" onclick="changeVolume('down')">Bajar Volumen</button>
+</div>
+    <ul id="enlaces"></ul>
+    <button id="boton-imagenes">Mostrar imágenes</button>
+    <div id="contenedor-imagenes" style="display:none;"></div>
+    <h2>Correos electrónicos:</h2>
+    <ul id="correos"></ul>
+    <h2>Números de teléfono:</h2>
+    <ul id="telefonos"></ul>
+    <h2>IDs:</h2>
+    <ul id="ids"></ul>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  </body>
+</html>
